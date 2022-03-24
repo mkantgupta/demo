@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SelfLearning.Selenium.maven.Ebay_Home_Sanity">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="empty_search_test_softassert"/>
+          <include name="beforeClassSetup"/>
+          <include name="empty_search_test"/>
+          <include name="afterClassSetup"/>
+        </methods>
+      </class> <!-- SelfLearning.Selenium.maven.Ebay_Home_Sanity -->
+      <class name="SelfLearning.Selenium.maven.Ebay_Advanced_Search_Sanity">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="category_options_in_ascending_order_test"/>
+          <include name="empty_advanced_search_test"/>
+        </methods>
+      </class> <!-- SelfLearning.Selenium.maven.Ebay_Advanced_Search_Sanity -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

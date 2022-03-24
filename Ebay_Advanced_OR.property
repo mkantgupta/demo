@@ -1,0 +1,5 @@
+clickSearchBtnusingCSSselector=button.btn-prim
+domain=https://www.ebay.com/sch/ebayadvsearch
+expectedURL =https://www.ebay.com/v/allcategories
+expectedTitle =All Categories - Browse and Discover more | eBay
+allCatogeryByCSS=select#e1-1>option
